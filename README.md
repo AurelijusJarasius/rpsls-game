@@ -8,3 +8,5 @@ rock https://icon-library.com/icon/spock-icon-4.html
 lizard https://rwest88.github.io/Rock-Paper-Scissors/
 
 convert image to webp https://cloudconvert.com/
+
+button icons https://www.w3schools.com/howto/howto_css_icon_buttons.asp
