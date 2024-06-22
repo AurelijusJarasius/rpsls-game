@@ -63,6 +63,11 @@ header {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
 }
 
+label {
+    display: block;
+    width: 130px;
+}
+
 .player1-options {
     display: flex;
     position: relative;
@@ -70,6 +75,15 @@ header {
     flex-direction: row;
     align-items: center;
     margin-top: -300px;
+}
+
+.player1-score {
+    display: flex;
+    position: inherit;
+    height: 50px;
+    width: 100%;
+    margin-top: -35px;
+    margin-left: -55%;
 }
 
 .computer {
@@ -83,6 +97,15 @@ header {
     margin-left: 15%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
 
+}
+
+.computer-score {
+    display: flex;
+    position: inherit;
+    height: 50px;
+    width: 100%;
+    margin-top: -35px;
+    margin-left: 30%;
 }
 
 footer {
