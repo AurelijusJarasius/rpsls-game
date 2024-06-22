@@ -146,6 +146,24 @@ footer > a {
         margin-left: 100%;
     }
 
+    .player1-score {
+        margin-top: -80px;
+        margin-left: -140%;
+    }
+
+    .player1-score > p {
+        font-size: 30px;
+    }
+
+    .computer-score {
+        margin-top: -80px;
+        margin-left: 30%; 
+    }
+
+    .computer-score > p {
+        font-size: 30px;
+    }
+
     label {
         display: block;
         width: 130px;
