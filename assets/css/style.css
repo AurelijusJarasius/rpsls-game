@@ -2,6 +2,7 @@ header {
     background-color: #22577a;
     justify-content: center;
     display: flex;
+    flex-direction: column;
     position: relative;
     text-align: center;
     width: 100%;
