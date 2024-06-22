@@ -1,3 +1,7 @@
+html {
+    background-color: #ffa756;
+}
+
 header {
     background-color: #22577a;
     justify-content: center;
@@ -20,7 +24,7 @@ header {
     text-align: center;
    }
    
-   .btn {
+.btn {
        display: inline-block;
        background-color:black;
        border-radius: 50%;
@@ -31,7 +35,7 @@ header {
        font-size: 20px;
    }
    
-   .btn:hover {
+.btn:hover {
        color: red;
    }
 
@@ -81,7 +85,6 @@ header {
 
 }
 
-
 footer {
     background-color: #57cc99;
     justify-content: center;
@@ -99,5 +102,37 @@ footer > a {
     color: black;
 }
 
+@media screen and (min-width: 992px) {
+    .btn {
+        font-size: 50px;
+    }
+
+    .game-area {
+        flex-direction: row;
+        height: 700px;
+    }
+
+    .player1 {
+        height: 500px;
+        margin-top: 150px;
+        left: -8%;
+    }
+
+    .player1-options {
+        margin-top: -750px;
+        margin-left: 100%;
+    }
+
+    label {
+        display: block;
+        width: 130px;
+    }
+
+    .computer {
+        height: 500px;
+        margin-top: 150px;
+        left: -8%;
+    }
+}
 
 
