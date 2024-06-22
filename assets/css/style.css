@@ -82,8 +82,12 @@ label {
     position: inherit;
     height: 50px;
     width: 100%;
-    margin-top: -35px;
-    margin-left: -55%;
+    margin-top: -40px;
+    margin-left: -52%;
+}
+
+.player1-score > p {
+    margin: 10px;
 }
 
 .computer {
@@ -104,8 +108,12 @@ label {
     position: inherit;
     height: 50px;
     width: 100%;
-    margin-top: -35px;
-    margin-left: 30%;
+    margin-top: -40px;
+    margin-left: 26%;
+}
+
+.computer-score > p {
+    margin: 10px;
 }
 
 footer {
@@ -146,9 +154,13 @@ footer > a {
         margin-left: 100%;
     }
 
+    .player1-options > label {
+        font-size: 20px;
+    }
+
     .player1-score {
         margin-top: -80px;
-        margin-left: -140%;
+        margin-left: -133%;
     }
 
     .player1-score > p {
@@ -157,7 +169,7 @@ footer > a {
 
     .computer-score {
         margin-top: -80px;
-        margin-left: 30%; 
+        margin-left: 33%; 
     }
 
     .computer-score > p {
@@ -166,7 +178,7 @@ footer > a {
 
     label {
         display: block;
-        width: 130px;
+        width: 180px;
     }
 
     .computer {
