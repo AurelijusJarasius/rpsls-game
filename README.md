@@ -12,3 +12,7 @@ convert image to webp https://cloudconvert.com/
 button icons https://www.w3schools.com/howto/howto_css_icon_buttons.asp
 
 color pallete https://coolors.co/palettes/trending
+
+modal https://www.w3schools.com/howto/howto_css_modals.asp
+
+game javascript chat.gpt
