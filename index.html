@@ -3,71 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+       
 </head>
-
 <body>
     <header>
-        <h2>Rock, Paper, Scissors, Lizzard, Spock game!</h2>
-        <h3>1. Select your favourite character</h3>
-        <h3>2. Choose your hand!</h3>
+        <h1>Rock Paper Scissors Lizard Spock</h1>
     </header>
-    <main>
 
-        <div class="play-button-area">
-
-            <button class="btn" id="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
-            <button class="btn" id="paper"><i class="fa-solid fa-hand"></i></button>
-            <button class="btn" id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
-            <button class="btn" id="lizzard"><i class="fa-solid fa-hand-lizard"></i></button>
-            <button class="btn" id="spock"><i class="fa-solid fa-hand-spock"></i></button>
-
+    <div class="game">
+        <div class="choices">
+            <button onclick="play('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
+            <button onclick="play('paper')"><i class="fa-solid fa-hand"></i></button>
+            <button onclick="play('scissors')"><i class="fa-solid fa-hand-scissors"></i></button>
+            <button onclick="play('lizard')"><i class="fa-solid fa-hand-lizard"></i></button>
+            <button onclick="play('spock')"><i class="fa-solid fa-hand-spock"></i></button>
         </div>
-        
-        <div class="game-area">
+        <div class="result" id="result"></div>
+    </div>
 
+    <footer>
+        <a href="https://www.youtube.com/watch?v=_PUEoDYpUyQ" target="_blank">Rules</a>
+    </footer>
 
-            <div class="player1">
-                <div class="player1-options">
-                    <label for="player1">Choose your player:</label>
-                    <select name="player" id="player1">
-                        <option value="Random">Random</option>
-                        <option value="Sheldon">Sheldon</option>
-                        <option value="Amy">Amy</option>
-                        <option value="Lenerd">Lenerd</option>
-                        <option value="Penny">Penny</option>
-                        <option value="Howard">Howard</option>
-                        <option value="Bernadette">Bernadette</option>
-                        <option value="Rajesh">Rajesh</option>
-                    </select>
-                </div>
-                <div class="player1-score">
-                    <p>Win: X</p>
-                    <p>Loss: X</p>
-                </div>
-            </div>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/8399f3e1ed.js" crossorigin="anonymous"></script>
 
-             <div class="computer">
-                <div class="computer-score">
-                    <p>Win: X</p>
-                    <p>Loss: X</p>
-                </div>
-
-             </div>
-
-        </div>
-
-    </main>
-
-<footer>
-    <a href="https://www.youtube.com/watch?v=_PUEoDYpUyQ" target="_blank">Rules</a>
-</footer>
-
-<!-- Font Awesome Kit -->
-<script src="https://kit.fontawesome.com/8399f3e1ed.js" crossorigin="anonymous"></script>
-
-<!-- Javascript -->
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
