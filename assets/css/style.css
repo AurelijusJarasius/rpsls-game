@@ -29,6 +29,15 @@ body {
     margin-top: 15px;
 }
 
+#character-container {
+    display: flex;
+    margin-top: 1px;
+}
+
+img {
+    width: 150px;
+}
+
 .choices {
     margin-top: 15px;
 }
@@ -95,3 +104,4 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
+
