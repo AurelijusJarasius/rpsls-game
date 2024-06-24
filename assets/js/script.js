@@ -53,3 +53,21 @@ window.onclick = function(event) {
   }
 }
 }
+
+
+// Character selection
+const characterDropdown = document.getElementById('characterDropdown');
+const displayCharacter = document.getElementById('displayCharacter');
+
+characterDropdown.addEventListener('change', function() {
+  const selectedValue = this.value;
+   if (selectedValue) {
+    displayCharacter.src = selectedValue;
+    displayCharacter.style.display = 'block';
+   }
+   else {
+    displayCharacter.style.display = 'none';
+   }
+});
+
+

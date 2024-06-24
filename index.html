@@ -16,7 +16,7 @@
         <p>Choose your character</p>
         <select id="characterDropdown">
             <option value="" disabled selected>Select your character</option>
-            <option value="/images/sheldon.png">Sheldon</option>
+            <option value="assets/images/sheldon.png">Sheldon</option>
             <option value="">Amy</option>
             <option value="">Leonard</option>
             <option value="">Penny</option>
@@ -26,11 +26,12 @@
         </select>
     </div>
 
-    <div id="character-container">
-        <img id="display-character" src="" alt="Selected Image" style="display: none;">
-    </div>
-
     <div class="game">
+
+        <div id="character-container">
+            <img id="displayCharacter" src="" alt="Selected Image" style="display: none;">
+        </div>
+
         <div class="choices">
             <button onclick="play('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
             <button onclick="play('paper')"><i class="fa-solid fa-hand"></i></button>
