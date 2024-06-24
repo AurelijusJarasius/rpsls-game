@@ -27,7 +27,7 @@ function play(playerChoice) {
         resultDiv.textContent = `You lose! ${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)} ${action} ${playerChoice}.`;
     }
 
-    // Get the modal
+// Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
