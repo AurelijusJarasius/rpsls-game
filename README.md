@@ -16,3 +16,16 @@ color pallete https://coolors.co/palettes/trending
 modal https://www.w3schools.com/howto/howto_css_modals.asp
 
 game javascript chat.gpt
+
+sheldon image
+
+Leonard image https://www.pngkit.com/downpic/u2w7a9i1q8t4t4y3_leonard-big-bang-theory-celebrity-face-mask-fancy/
+
+Penny image 
+
+Rajesh image https://www.pngkit.com/view/u2w7a9i1q8t4i1u2_raj-big-bang-theory-celebrity-face-mask-fancy/
+
+Amy image
+
+Bernadette image
+
