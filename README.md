@@ -27,5 +27,10 @@ Rajesh image https://www.pngkit.com/view/u2w7a9i1q8t4i1u2_raj-big-bang-theory-ce
 
 Amy image
 
+Bernadette image https://whatculture-create-cms.s3.amazonaws.com/media/2021/01/659d2df09fa40d41-1200x675.jpg
+
+editing images
+remove.bg & cloudconvert.com
+
 Bernadette image
 

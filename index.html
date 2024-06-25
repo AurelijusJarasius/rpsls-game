@@ -28,6 +28,11 @@
 
     <div class="game">
 
+        <div class="player-score">
+            <p class="scores">Win: <span id="score">0</span></p>
+            <p class="scores">Loss: <span id="score">0</span></p>
+        </div>
+
         <div id="character-container">
             <img id="displayCharacter" src="" alt="Selected Image" style="display: none;">
         </div>
@@ -40,9 +45,17 @@
             <button onclick="play('spock')"><i class="fa-solid fa-hand-spock"></i></button>
         </div>
         <div class="result" id="result"></div>
+
         <div>
             <img src="assets/images/computer.png" alt="Robot Image">
         </div>
+
+        <div class="computer-score">
+            <p class="scores">Win: <span id="score">0</span></p>
+            <p class="scores">Loss: <span id="score">0</span></p>
+        </div>
+
+        
     </div>
 
     <footer>
