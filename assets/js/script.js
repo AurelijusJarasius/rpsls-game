@@ -48,6 +48,17 @@ characterDropdown.addEventListener('change', function() {
    }
 });
 
+messagePrompt();
+
+// Character selection alert
+
+function messagePrompt() {
+  if (characterDropdown.selectedIndex === 0) {
+    alert('Choose your character!');
+  }
+}
+
+
 // Game play function
 
 const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
@@ -87,16 +98,5 @@ function play(playerChoice) {
         computerWinSpan.innerText = computerWin;
     }
 }
-
-// Character selection alert
-
-/*
-function messagePrompt() {
-  let characterDropdown = document.getElementById('characterDropdown');
-  if (characterDropdown.selectedIndex === 0) {
-    alert('Choose your character!');
-  }
-}
-*/
 
 
