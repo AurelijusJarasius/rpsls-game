@@ -69,6 +69,19 @@ img {
     cursor: pointer;
 }
 
+#feedbackBtn {
+    text-decoration: none;
+    justify-content: center;
+    width: 100%;
+    background-color: #57cc99;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+    font-size: 40px;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
 /* The Modal (background) */
 .modal {
     display: none;
@@ -104,6 +117,55 @@ img {
   .close:focus {
     color: black;
     text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*feedback.html styling */
+
+  .feedback {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+    height: 20px;
+  }
+
+  input[type=email], select, textarea {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 20px;
+  }
+
+  #submitBtn {
+    text-decoration: none;
+    justify-content: center;
+    width: 100%;
+    background-color: #57cc99;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+    font-size: 40px;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  #returnBtn {
+    text-decoration: none;
+    justify-content: center;
+    width: 100%;
+    background-color: #57cc99;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+    font-size: 40px;
+    color: black;
+    border-radius: 25px;
     cursor: pointer;
   }
 
