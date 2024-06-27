@@ -6,6 +6,7 @@ let playerWin = 0;
 let playerLoss = 0;
 let computerWin = 0;
 let computerLoss = 0;
+const gameArea = document.getElementsByClassName('game');
 
 // Rules modal
 var modal = document.getElementById("myModal");
@@ -34,6 +35,8 @@ window.onclick = function(event) {
 const characterDropdown = document.getElementById('characterDropdown');
 const displayCharacter = document.getElementById('displayCharacter');
 
+
+
 characterDropdown.addEventListener('change', function() {
   const selectedValue = this.value;
    if (selectedValue) {
@@ -45,6 +48,29 @@ characterDropdown.addEventListener('change', function() {
    }
 });
 
+
+disableGame();
+document.getElementById('characterDropdown').addEventListener('change', disableGame);
+// Disable game play area until character is chosen
+
+function disableGame() {
+  var characterDropdown = document.getElementById('characterDropdown');
+  var gameElements = document.getElementsByClassName('game');
+
+  if (characterDropdown.selectedIndex === 0) {
+    for (var i = 0; i < gameElements.length; i++) {
+      gameElements[i].style.display = 'none';
+    }
+  } else {
+    for (var i = 0; i < gameElements.length; i++) {
+      gameElements[i].style.display = 'flex';
+    }
+  }
+};
+
+
+/*
+
 messagePrompt();
 
 // Character selection alert
@@ -55,6 +81,7 @@ function messagePrompt() {
   }
 }
 
+*/
 
 // Game play function
 
