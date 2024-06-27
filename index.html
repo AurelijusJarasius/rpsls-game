@@ -13,14 +13,14 @@
     <header>
         <h1>Rock Paper Scissors Lizard Spock</h1>
     </header>
-
+    <!--Rules button-->
     <div class="rules">
         <button id="myBtn">Rules</button>
 
-        <!-- The Modal -->
+        <!--Modal -->
         <div id="myModal" class="modal">
 
-            <!-- Modal content -->
+            <!--Modal content-->
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <iframe id="rules-video" width="280" height="158" src="https://www.youtube.com/embed/_PUEoDYpUyQ?si=d832uyQmkmS_dLX7&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -37,7 +37,7 @@
             </div>
         </div>
     </div>
-
+    <!--Character selection-->
     <div class="characters">
         <p>Choose your character</p>
         <select id="characterDropdown">
@@ -51,18 +51,18 @@
             <option value="assets/images/rajesh.png">Rajesh</option>
         </select>
     </div>
-
+    <!--Game area-->
     <div class="game">
-
+        
         <div class="playerScore">
             <p class="scores">Win: <span id="playerWin">0</span></p>
             <p class="scores">Loss: <span id="playerLoss">0</span></p>
         </div>
-
+        <!--Characters-->
         <div id="character-container">
             <img id="displayCharacter" src="" alt="Selected Image" style="display: none;">
         </div>
-
+        <!--Hand choices-->
         <div class="choices">
             <button onclick="play('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
             <button onclick="play('paper')"><i class="fa-solid fa-hand"></i></button>
@@ -71,7 +71,7 @@
             <button onclick="play('spock')"><i class="fa-solid fa-hand-spock"></i></button>
         </div>
         <div class="result" id="result"></div>
-
+        <!--Computer character-->
         <div>
             <img src="assets/images/computer.png" alt="Robot Image">
         </div>
@@ -80,17 +80,14 @@
             <p class="scores">Win: <span id="computerWin">0</span></p>
             <p class="scores">Loss: <span id="computerLoss">0</span></p>
         </div>
-
-        
     </div>
-
+    <!--Feedback button-->
     <div>
         <a href="feedback.html">
             <button id="feedbackBtn">Feedback</button>
         </a>
     </div>
-
-
+    
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/8399f3e1ed.js" crossorigin="anonymous"></script>
     
