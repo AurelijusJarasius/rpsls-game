@@ -1,5 +1,4 @@
 // Global
-
 const playerWinSpan = document.getElementById('playerWin');
 const playerLossSpan = document.getElementById('playerLoss');
 const computerWinSpan = document.getElementById('computerWin');
