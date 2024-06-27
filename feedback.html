@@ -15,18 +15,19 @@
         <div class="feedback">
             <form id="feedback-form" method="POST" action="https://formdump.codeinstitute.net">
                 <label for="first-name">First Name</label>
-                <input type="text" pattern="A-Z a-z" name="first-name" placeholder="Your first name" required>
+                <input type="text" name="first-name" placeholder="Your first name" required>
 
                 <label for="last-name">Last Name</label>
-                <input type="text" pattern="A-Z a-z" name="last-name" placeholder="Your last name" required>
+                <input type="text" name="last-name" placeholder="Your last name" required>
 
                 <label for="email">Email Address</label>
-                <input type="email" pattern=".+@example\.com" name="email" placeholder="Your email address" required>
+                <input type="email" name="email" placeholder="Your email address" required>
 
                 <label for="feedback">Your feedback</label>
                 <input type="text" name="feedback" placeholder="Your feedback" style="height: 200px;" required>
+
+                <button id="submitBtn" type="submit">Submit!</button>
             </form>
-            <button id="submitBtn" type="submit">Submit!</button>
         </div>
 
         <a href="index.html">
