@@ -20,11 +20,13 @@ btn.onclick = function() {
 
 span.onclick = function() {
   modal.style.display = "none";
+  iframe.location.reload();
 }
 
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+    iframe.location.reload();
   }
 };
 
