@@ -1,3 +1,10 @@
+// Wait for DOM to finish loading before running
+document.addEventListener("DOMContentLoaded", function() {
+  console.log('DOM content loaded')
+};
+
+// Global
+
 const playerWinSpan = document.getElementById('playerWin');
 const playerLossSpan = document.getElementById('playerLoss');
 const computerWinSpan = document.getElementById('computerWin');

@@ -75,6 +75,7 @@ img {
 .result {
     font-family: "Oswald", sans-serif;
     font-size: 20px;
+    display: flex;
 }
 
 
@@ -203,7 +204,9 @@ img {
     }
 
     .choices button {
-        font-size: 50px;
+        font-size: 30px;
+        align-self: center;
+        flex-direction: column;
     }
 
     img {
@@ -212,6 +215,7 @@ img {
 
     .result {
         font-size: 30px;
+        flex-direction: column;
     }
 
   }
