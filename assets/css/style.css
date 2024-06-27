@@ -16,6 +16,14 @@ header {
     
 }
 
+p {
+  font-family: "Oswald", sans-serif;
+}
+
+.characters {
+  font-size: 30px;
+}
+
 body {
     text-align: center;
     font-family: Arial, sans-serif;

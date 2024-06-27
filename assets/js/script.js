@@ -10,19 +10,14 @@ const gameArea = document.getElementsByClassName('game');
 
 // Rules modal
 var modal = document.getElementById("myModal");
-
 var btn = document.getElementById("myBtn");
-
 var span = document.getElementsByClassName("close")[0];
-
 btn.onclick = function() {
   modal.style.display = "block";
 }
-
 span.onclick = function() {
   modal.style.display = "none";
 }
-
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
@@ -32,9 +27,6 @@ window.onclick = function(event) {
 // Character selection
 const characterDropdown = document.getElementById('characterDropdown');
 const displayCharacter = document.getElementById('displayCharacter');
-
-
-
 characterDropdown.addEventListener('change', function() {
   const selectedValue = this.value;
    if (selectedValue) {
@@ -46,15 +38,12 @@ characterDropdown.addEventListener('change', function() {
    }
 });
 
-
+// Disable game play area until character is chosen
 disableGame();
 document.getElementById('characterDropdown').addEventListener('change', disableGame);
-// Disable game play area until character is chosen
-
 function disableGame() {
   var characterDropdown = document.getElementById('characterDropdown');
   var gameElements = document.getElementsByClassName('game');
-
   if (characterDropdown.selectedIndex === 0) {
     for (var i = 0; i < gameElements.length; i++) {
       gameElements[i].style.display = 'none';
@@ -66,25 +55,8 @@ function disableGame() {
   }
 };
 
-
-/*
-
-messagePrompt();
-
-// Character selection alert
-
-function messagePrompt() {
-  if (characterDropdown.selectedIndex === 0) {
-    alert('Choose your character!');
-  }
-}
-
-*/
-
 // Game play function
-
 const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
-
 const rules = {
     rock: { scissors: 'crushes', lizard: 'crushes' },
     paper: { rock: 'covers', spock: 'disproves' },
@@ -92,16 +64,13 @@ const rules = {
     lizard: { paper: 'eats', spock: 'poisons' },
     spock: { rock: 'vaporizes', scissors: 'smashes' },
 };
-
 function getComputerChoice() {
     const randomIndex = Math.floor(Math.random() * choices.length);
     return choices[randomIndex];
 }
-
 function play(playerChoice) {
     const computerChoice = getComputerChoice();
     const resultDiv = document.getElementById('result');
-
     if (playerChoice === computerChoice) {
         resultDiv.textContent = `It's a tie! Both chose ${playerChoice}.`;
     } else if (computerChoice in rules[playerChoice]) {
@@ -119,6 +88,6 @@ function play(playerChoice) {
         computerWin++;
         computerWinSpan.innerText = computerWin;
     }
-}
+};
 
 
