@@ -26,38 +26,92 @@
 <a name="ux"></a>
 
 ### Pre-project planning
-
+When deciding on the project, I evaluated the examples given through course content. Quizes are not something that I do quite often and there are a lot of trends website out there. I settled on rock paper scissors lizard spock game as it stood out to me as it is something different, and upon more researched there are not many games out there.
+I then decided to do rock paper scissors lizard spock game with a big bang theory twist on it as I'm a huge fan of the show.
 
 ## UX Design
 
+### To identify the best way forward for my project, I started looking at the user and business requirements for this type of game
 
 ## User stories
+
+> As a new player I want to play a simple game and relax
+
+> As a player I want to understand the rules of the game
+
+> As a player I want to be able to pick my character
+
+> As a player I want to be able to keep score
+
+> As a player I want to be able to leave feedback if I like it or have an idea for improvement
 
 
 ## Owner
 
+> As an owner I need to provide an easy going game
+
+> As an owner I need to provide rules of the game
+
+> As an owner I need to provide character selection options
+
+> As an owner I need to provide a score area
+
+> As an owner I need to provide a feedback form
 
 ## Scope Pane
 
+> Website should have consistent navigation layout
+
+> Website should have a header clearly indicating the game
+
+> Website should contain rules section
+
+> Website should contain character selection dropdown
+
+> Website should contain game area
+
+> Website should contain hand choice for the player
+
+> Website should contain score tracker
+
+> Website should contain feedback form
 
 ## Structure Pane
 
+> Website will contain 2 pages: Main page for the game and feedback form page
 
 ### Home Page
 
+> Header with the name of the game
 
+> Rules button to open a modal
+
+> Character selection box
+
+> Hand choice buttons
+
+> Score trackers for player and computer
+
+> Feedback button to open a form
 
 ### Feedback Page
+
+> Header thanking user for playing
+
+> Feedback form with data validation
+
+> Submit button to submit feedback
+
+> Home button to return back to the game
+
+### Sekeleton Pane
+
 
 
 ### Colours
 
 
 #### Fonts
-
-
-#### Fonts
-
 
 
 #### Colours
