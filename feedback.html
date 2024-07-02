@@ -17,22 +17,20 @@
         <div class="feedback">
             <form id="feedback-form" method="POST" action="https://formdump.codeinstitute.net">
                 <label for="first-name">First Name</label>
-                <input type="text" name="first-name" placeholder="Your first name" required>
+                <input id="first-name" type="text" name="first-name" placeholder="Your first name" required>
 
                 <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" placeholder="Your last name" required>
+                <input id="last-name" name="last-name" placeholder="Your last name" required>
 
                 <label for="email">Email Address</label>
-                <input type="email" name="email" placeholder="Your email address" required>
+                <input id="email" type="email" name="email" placeholder="Your email address" required>
 
                 <label for="feedback">Your feedback</label>
-                <input type="text" name="feedback" placeholder="Your feedback" style="height: 200px;" required>
+                <input id="feedback" name="feedback" placeholder="Your feedback" style="height: 200px;" required>
 
                 <button id="submitBtn" type="submit">Submit!</button>
             </form>
         </div>
         <!--Home Button-->
-        <a href="index.html">
-            <button id="returnBtn">Home</button>
-        </a>
+        <button id="returnBtn" onclick="window.location.href='index.html'">Home</button>
 </body>
