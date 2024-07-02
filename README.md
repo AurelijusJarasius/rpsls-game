@@ -283,6 +283,17 @@ Safari | Browse through both pages and play game 10 times sucessfully | Content 
 >Firefox: light variation in button style display and colors
 >Safari: light variation in button style display and colors
 
+#### User Testing
+| Test | Result |
+|--|--|
+Chose Rajesh character and play game until you reach 5 wins | Pass |
+Find what spock can beat | Pass |
+Submit test feedback | Pass |
+Play rules video | Pass |
+Chose Sheldon character and play game | Pass |
+Change character from Sheldon to Penny | Pass |
+
+
 ## Mobile/Tablet Testing
 | Device | Test | Expectation | Result |
 |--|--|--|--|
@@ -292,6 +303,8 @@ OnePlus Pad | Browse through all pages | Content displayed correctly, game works
 iPhone 15 Pro | Browse through all pages | Content displayed correctly, game works as expected | Pass |
 iPhone 12 Pro | Browse through all pages | Content displayed correctly, game works as expected | Pass |
 Huawei P30 Pro | Browse through all pages | Content displayed correctly, game works as expected | Pass |
+
+
 
 
 
