@@ -1,5 +1,5 @@
 # Rock Paper Scissors Lizard Spock Game
-## An easy going game for Big Bang Theory fans as well and people to kill a bit of time!
+## An easy going game for people looking to kill some time as well as Big Bang Theory fans!
 ### Aurelijus Jarasius
 
 ![am I responsive screenshot](assets/images/responsive-screenshot.webp)
@@ -106,26 +106,119 @@ I then decided to do rock paper scissors lizard spock game with a big bang theor
 
 ### Sekeleton Pane
 
+> Starting development game layout frame
 
+![Basic home page frame](assets/images/skeleton1.webp)
+
+> Mid point development game layout frame
+
+![Mid home page frame](assets/images/skeleton2.webp)
+
+> Final development game layout frame
+
+![Final home page frame](assets/images/skeleton3.webp)
+
+> While the planned layout of the page looked good on larger screens, I realised that it is not mobile friendly. I then shifted to basic vertical view for mobile and horizontal layout for larger screens
 
 ### Colours
 
+> I decided to use pastel colors so that they're not too bright as this should be a game to relax
+
+> I chose a warm color for the background with cold colors for the buttons and game area
 
 #### Fonts
 
+- Oswald
+- Sans-serif
 
 #### Colours
 
-
+- #ffa756
+- #62b6cb
+- #38a3a5
+- #57cc99
+- #fefefe
 
 # Features
 
 <a name="features"></a>
 
+### index.html
+
+#### Header
+![Main page header](assets/images/header.webp)
+> Header contains the name of the game
+
+#### Rules button
+![Rules button](assets/images/rules-button.webp)
+> Rules button contains a modal
+
+#### Rules modal
+![Rules modal](assets/images/rules-modal.webp)
+> Modal contains a video explaining the rules of the game as well as text containing all outcomes
+
+#### Character selection dropdown
+![Character dropdown](assets/images/character-dropdown.webp)
+> Character selection dropdown contains main Big Bang Theory character choices
+
+#### Game area
+![Game area](assets/images/game-area.webp)
+> Once character is chosen the game area opens with hand choice buttons
+
+#### Win/Loss/Tie indicators
+![Win indicator](assets/images/win-comment.webp)
+> Comment indicating win and explaining why
+
+![Loss indicator](assets/images/loss-comment.webp)
+> Comment indicating loss and explaining why
+
+![Tie indicator](assets/images/tie-comment.webp)
+> Comment indicating tie and explaining why
+
+#### Score counter
+![Score counter](assets/images/score-counter.webp)
+> Score counters for player and computer showing wins and losses
+
+#### Feedback button
+![Feedback button](assets/images/feedback-button.webp)
+> Feedback button directing users to a feedback form page
+
+### feedback.html
+
+#### Header
+![Thank you for playing! We value your feedback message](assets/images/feedback-header.webp)
+> Message to thank users for playing
+
+#### Form
+![Feedback form](assets/images/feedback-form.webp)
+> Feedback form requiring first name, last name, email address and feedback(free text)
+
+#### Submit button
+![Button to submit feedback](assets/images/feedback-button.webp)
+> Button to submit feedback
+
+#### Home button
+![Home button](assets/images/home-button.webp)
+> Button to bring user back to the game
+
+### Feature Development
+
+#### commit 6d79673
+> When developing and testing javascript code for the game, found it difficult to nail down the rules and functions for the game. Upon research into similar games and reviewing forums I decided to get help via chat.gpt. I got a basic breakdown and assistance for the rules and functions and amended those to work with my game
+
+#### commit ad9e6cf
+> Had an alert pop up prompting player to choose character before beginning the game. Changed the approach to hide the game area if character is not chosen after meeting with my mentor
+
 
 # Future Features
 
 <a name="Future"></a>
+
+> Add quotes to the characters when winning or losing
+
+> Add quotes for the computer mocking player when winning and complaining when losing
+
+> Add streak counters and pop ups eg. Fireworks display when 10 wins in a row
 
 
 # Testing
@@ -133,9 +226,15 @@ I then decided to do rock paper scissors lizard spock game with a big bang theor
 <a name="testing"></a>
 
 
+### Code readability
+> File structure and coding convention meets standards of readability with consistent indentation across all files
+
 # Bugs
 
 <a name="bugs"></a>
+
+![Win/Loss/Tie comment](assets/images/score-counter.webp)
+> Win/Loss/Tie comment appearing next to the buttons - this comment should appear below the buttons
 
 
 # Deployment
@@ -154,15 +253,68 @@ I then decided to do rock paper scissors lizard spock game with a big bang theor
 
 <a name="credits"></a>
 
+> Youtube video with game rules https://www.youtube.com/watch?v=_PUEoDYpUyQ
+
+> All player hand choice buttons are taken from https://kit.fontawesome.com/8399f3e1ed.js
+
+> Sheldon image https://www.pngaaa.com/detail/12631
+
+> Amy image https://www.cinemablend.com/television/2470535/why-the-big-bang-theorys-amy-is-having-a-meltdown-over-the-nobel-prize
+
+> Leonard image https://www.pngkit.com/downpic/u2w7a9i1q8t4t4y3_leonard-big-bang-theory-celebrity-face-mask-fancy/
+
+> Penny image https://bigbangtheory.fandom.com/wiki/Penny?file=Penny+Hofstadter.webp
+
+> Howard image https://salexzet.live/product_details/18479915.html
+
+> Bernadette image https://whatculture-create-cms.s3.amazonaws.com/media/2021/01/659d2df09fa40d41-1200x675.jpg
+
+> Rajesh image https://www.pngkit.com/view/u2w7a9i1q8t4i1u2_raj-big-bang-theory-celebrity-face-mask-fancy/
+
+> Removing background from image https://remove.bg/
+
+> Converting all images to .webp https://cloudconvert.com/
+
+> Modal https://www.w3schools.com/howto/howto_css_modals.asp
+
+> Game logic development chat.gpt, https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript and course content
+
+> Favicon https://favicon.io/emoji-favicons/
+
+> Color pallet https://coolors.co/palettes/trending
+
 
 # Content & Resources
 
 <a name="content"></a>
 
+### Code Institute
+> Project created inline with project 2 scope
+
+### w3 schools
+> Used for general look up for HTML, CSS and javascript
+
+### chat.gpt
+> Used for assisting with javascript game development
+
+### Coolors.co
+> Used for color palet
 
 # Acknowledgements
 
 <a name="acknowledgements"></a>
+
+### Alan Bushell
+
+> My mentor who has provided guidance throughout and pointed me in the right direction when unsure. He gave me great tips on how to make my code simpler and improving my understanding of javascript
+
+### Lewis Dillon
+
+> My course facilitator who has shared, advised and helped throughout this project and gave support with any questions raised
+
+### Student Support
+
+> Thomas and Roo have been great help in assisting with incrementing scores code and hiding game area if character is not chosen
 
 
 

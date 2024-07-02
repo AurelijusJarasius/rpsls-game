@@ -62,15 +62,17 @@
         <div id="character-container">
             <img id="displayCharacter" src="" alt="Selected Image" style="display: none;">
         </div>
-        <!--Hand choices-->
-        <div class="choices">
-            <button onclick="play('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
-            <button onclick="play('paper')"><i class="fa-solid fa-hand"></i></button>
-            <button onclick="play('scissors')"><i class="fa-solid fa-hand-scissors"></i></button>
-            <button onclick="play('lizard')"><i class="fa-solid fa-hand-lizard"></i></button>
-            <button onclick="play('spock')"><i class="fa-solid fa-hand-spock"></i></button>
+        <!--Hand choices & Results-->
+        <div>
+            <div class="choices">
+                <button onclick="play('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
+                <button onclick="play('paper')"><i class="fa-solid fa-hand"></i></button>
+                <button onclick="play('scissors')"><i class="fa-solid fa-hand-scissors"></i></button>
+                <button onclick="play('lizard')"><i class="fa-solid fa-hand-lizard"></i></button>
+                <button onclick="play('spock')"><i class="fa-solid fa-hand-spock"></i></button>
+            </div>
+            <div class="result" id="result"></div>
         </div>
-        <div class="result" id="result"></div>
         <!--Computer character-->
         <div>
             <img src="assets/images/computer.webp" alt="Robot Image">
