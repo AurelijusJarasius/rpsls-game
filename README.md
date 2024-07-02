@@ -225,6 +225,76 @@ I then decided to do rock paper scissors lizard spock game with a big bang theor
 
 <a name="testing"></a>
 
+> Majority of the testing has been conducted by myself and relatives to ensure sit is useable, responsive and easy to navigate
+
+### Testing Phase
+#### Testing for links and form
+| Test | Expectation | Result |
+|--|--|--|
+Feedback Button | Links to feedback form on feedback.html | Pass |
+First Name | Mandatory field - requests user to input | Pass |
+Last Name | Mandatory field - requests user to input | Pass |
+Email Address | Mandatory field - requests user to input email address | Pass |
+Comment | Mandatory field - requests user to input | Pass |
+Submit Button | Submits form when filled in | Pass |
+Home Button | Brings back the user to the game | Pass |
+
+#### Testing buttons and character functionality
+| Test | Expectation | Result |
+|--|--|--|
+Rules Button | Opens up modal displaying video & game outcomes | Pass |
+Modal Video | Video can be played | Pass |
+Hidden game area | Game area hidden and displays when character chosen | Pass |
+Character selection dropdown | Displays characters options for the game | Pass |
+Sheldon character selection | Displays Sheldon in game area when chosen | Pass |
+Amy character selection | Displays Amy in game area when chosen | Pass |
+Leonard character selection | Displays Leonard in game area when chosen | Pass |
+Penny character selection | Displays Penny in game area when chosen | Pass |
+Howard character selection | Displays Howard in game area when chosen | Pass |
+Bernadette character selection | Displays Bernadette in game area when chosen | Pass |
+
+#### Testing choices buttons & comments
+| Test | Expectation | Result |
+|--|--|--|
+Rock Button | Submits user choice | Pass |
+Paper Button | Submits user choice | Pass |
+Scissors Button | Submits user choice | Pass |
+Lizard Button | Submits user choice | Pass |
+Spock Button | Submits user choice | Pass |
+Win comment & explanation | Displays win and reason | Pass |
+Loss comment & explanation | Displays loss and reason | Pass |
+Tie comment & explanation | Displays tie and reason | Pass |
+
+#### Testing for responsiveness
+| Test | Result |
+|--|--|
+Game & Feedback form displays correctly on screens less than 769px | Pass |
+Game & Feedback form displays correctly on screens larger than 992px | Pass |
+
+#### Browser Testing
+| Browser | Test | Expectation | Result |
+|--|--|--|--|
+Chrome | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
+Edge | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
+Firefox | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
+Opera | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
+Safari | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
+
+>Firefox: light variation in button style display and colors
+>Safari: light variation in button style display and colors
+
+## Mobile/Tablet Testing
+| Device | Test | Expectation | Result |
+|--|--|--|--|
+OnePlus Nord 2 | Browse through all pages | Content displayed correctly, game works as expected | Pass |
+Samsung Galaxy A22 | Browse through all pages | Content displayed correctly, game works as expected | Pass |
+OnePlus Pad | Browse through all pages | Content displayed correctly, game works as expected | Pass |
+iPhone 15 Pro | Browse through all pages | Content displayed correctly, game works as expected | Pass |
+iPhone 12 Pro | Browse through all pages | Content displayed correctly, game works as expected | Pass |
+Huawei P30 Pro | Browse through all pages | Content displayed correctly, game works as expected | Pass |
+
+
+
 
 ### Code readability
 > File structure and coding convention meets standards of readability with consistent indentation across all files
@@ -235,6 +305,7 @@ I then decided to do rock paper scissors lizard spock game with a big bang theor
 
 ![Win/Loss/Tie comment](assets/images/score-counter.webp)
 > Win/Loss/Tie comment appearing next to the buttons - this comment should appear below the buttons
+> FIXED
 
 
 # Deployment
