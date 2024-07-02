@@ -157,7 +157,7 @@ img {
   /*Form */
 
   input[type=text], select, textarea {
-    width: 100%;
+    width: 300px;
     border-radius: 4px;
     resize: vertical;
     margin-bottom: 10px;
