@@ -26,7 +26,7 @@
 <a name="ux"></a>
 
 ### Pre-project planning
-When deciding on the project, I evaluated the examples given through course content. Quizes are not something that I do quite often and there are a lot of trends website out there. I settled on rock paper scissors lizard spock game as it stood out to me as it is something different, and upon more researched there are not many games out there.
+When deciding on the project, I evaluated the examples given through course content. Quizzes are not something that I do quite often and there are a lot of trends website out there. I settled on rock paper scissors lizard spock game as it stood out to me as it is something different, and upon more researched there are not many games out there.
 I then decided to do rock paper scissors lizard spock game with a big bang theory twist on it as I'm a huge fan of the show.
 
 ## UX Design
@@ -104,7 +104,7 @@ I then decided to do rock paper scissors lizard spock game with a big bang theor
 
 > Home button to return back to the game
 
-### Sekeleton Pane
+### Skeleton Pane
 
 > Starting development game layout frame
 
@@ -225,7 +225,7 @@ I then decided to do rock paper scissors lizard spock game with a big bang theor
 
 <a name="testing"></a>
 
-> Majority of the testing has been conducted by myself and relatives to ensure sit is useable, responsive and easy to navigate
+> Majority of the testing has been conducted by myself and relatives to ensure site is useable, responsive and easy to navigate
 
 ### Testing Phase
 #### Testing for links and form
@@ -238,6 +238,9 @@ Email Address | Mandatory field - requests user to input email address | Pass |
 Comment | Mandatory field - requests user to input | Pass |
 Submit Button | Submits form when filled in | Pass |
 Home Button | Brings back the user to the game | Pass |
+
+### Form
+![Submitted form](assets/images/form-result.webp)
 
 #### Testing buttons and character functionality
 | Test | Expectation | Result |
@@ -252,6 +255,7 @@ Leonard character selection | Displays Leonard in game area when chosen | Pass |
 Penny character selection | Displays Penny in game area when chosen | Pass |
 Howard character selection | Displays Howard in game area when chosen | Pass |
 Bernadette character selection | Displays Bernadette in game area when chosen | Pass |
+Rajesh character selection | Displays Rajesh in game area when chosen | Pass |
 
 #### Testing choices buttons & comments
 | Test | Expectation | Result |
@@ -274,11 +278,11 @@ Game & Feedback form displays correctly on screens larger than 992px | Pass |
 #### Browser Testing
 | Browser | Test | Expectation | Result |
 |--|--|--|--|
-Chrome | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
-Edge | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
-Firefox | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
-Opera | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
-Safari | Browse through both pages and play game 10 times sucessfully | Content displayed correctly and game working as expected | Pass |
+Chrome | Browse through both pages and play game 10 times successfully | Content displayed correctly and game working as expected | Pass |
+Edge | Browse through both pages and play game 10 times successfully | Content displayed correctly and game working as expected | Pass |
+Firefox | Browse through both pages and play game 10 times successfully | Content displayed correctly and game working as expected | Pass |
+Opera | Browse through both pages and play game 10 times successfully | Content displayed correctly and game working as expected | Pass |
+Safari | Browse through both pages and play game 10 times successfully | Content displayed correctly and game working as expected | Pass |
 
 >Firefox: light variation in button style display and colors
 >Safari: light variation in button style display and colors
@@ -304,9 +308,33 @@ iPhone 15 Pro | Browse through all pages | Content displayed correctly, game wor
 iPhone 12 Pro | Browse through all pages | Content displayed correctly, game works as expected | Pass |
 Huawei P30 Pro | Browse through all pages | Content displayed correctly, game works as expected | Pass |
 
+## Google Lighthouse Testing
+
+### index.html
+![Google Lighthouse index.html](assets/images/lighthouse-test.webp)
+
+### feedback.html
+![Google Lighthouse feedback.html](assets/images/feedback.html-lighthouse.webp)
 
 
+## HTML Validation
 
+### index.html
+![HTML validation index.html](assets/images/html-validator.webp)
+
+> Empty image is required in order not display a value before a character is chosen
+
+### feedback.html
+![HTML validation feedback.html]
+
+## CSS Validation
+![CSS validation](assets/images/css-validator.webp)
+
+
+## Javascript Validation
+![Javascript validation](assets/images/js-validator.webp)
+
+> If I is not defined again in the function, it does not work
 
 
 ### Code readability
@@ -319,6 +347,10 @@ Huawei P30 Pro | Browse through all pages | Content displayed correctly, game wo
 ![Win/Loss/Tie comment](assets/images/score-counter.webp)
 > Win/Loss/Tie comment appearing next to the buttons - this comment should appear below the buttons
 > FIXED
+
+![Favicon not displaying](assets/images/favicon-bug.webp)
+> Favicon not displaying on deployed website
+> FIXED 
 
 
 # Deployment
@@ -400,56 +432,3 @@ Huawei P30 Pro | Browse through all pages | Content displayed correctly, game wo
 
 > Thomas and Roo have been great help in assisting with incrementing scores code and hiding game area if character is not chosen
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-video link https://www.youtube.com/watch?v=_PUEoDYpUyQ 
-
-icons
-Scisors https://icon-library.com/icon/spock-icon-5.html
-spock https://icon-library.com/icon/rock-paper-scissors-icon-6.html
-paper https://icon-library.com/icon/spock-icon-3.html
-rock https://icon-library.com/icon/spock-icon-4.html
-lizard https://rwest88.github.io/Rock-Paper-Scissors/
-
-convert image to webp https://cloudconvert.com/
-
-button icons https://www.w3schools.com/howto/howto_css_icon_buttons.asp
-
-color pallete https://coolors.co/palettes/trending
-
-modal https://www.w3schools.com/howto/howto_css_modals.asp
-
-game javascript chat.gpt
-
-sheldon image
-
-Leonard image https://www.pngkit.com/downpic/u2w7a9i1q8t4t4y3_leonard-big-bang-theory-celebrity-face-mask-fancy/
-
-Penny image 
-
-Rajesh image https://www.pngkit.com/view/u2w7a9i1q8t4i1u2_raj-big-bang-theory-celebrity-face-mask-fancy/
-
-Amy image
-
-Bernadette image https://whatculture-create-cms.s3.amazonaws.com/media/2021/01/659d2df09fa40d41-1200x675.jpg
-
-editing images
-remove.bg & cloudconvert.com
-
-Bernadette image
-
-mystery man https://www.pngwing.com/en/free-png-nrchu
